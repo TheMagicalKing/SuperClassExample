@@ -17,6 +17,8 @@ public class Main {
         n.shownUp = 100.0;
         n.year = 1;
 
+        System.out.println(n.name + " is a " + n.userID + " at Zealand they're " + n.alder + " years old. has a grade off " + n.grades + "and has a attendance percentage of " + n.shownUp +"%");
+        System.out.println(n.logIn());
 
         //Variables from SuperClass
         s.name = "Sune";
@@ -28,8 +30,8 @@ public class Main {
         s.grades = 95.0;
         s.shownUp = 100.0;
         s.year = 1;
-
-
+        System.out.println(s.name + " is a " + s.userID + " at Zealand they're " + s.alder + " years old. has a grade off " + s.grades + "and has a attendance percentage of " + s.shownUp +"%");
+        System.out.println(s.logIn());
         //Employees Class and objects
         Employees aWestfall = new Employees();
         Employees aPedersen = new Employees();

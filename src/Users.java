@@ -5,12 +5,16 @@ public class Users {
     int alder;
     String name;
     Boolean correctPassword;
+    String a;
 
-    void logIn(){
+    String logIn(){
         if (correctPassword == true)
             System.out.println("Correct password you've been logged in!");
+
+
         else
             System.out.println("Wrong Password try Again!");
 
+        return a;
     }
 }
